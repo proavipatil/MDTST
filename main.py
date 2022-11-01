@@ -16,7 +16,7 @@ from split import TG_SPLIT_SIZE
 
 
 # app
-bot_token = os.environ.get("TOKEN", "5496972517:AAFhMQkwoFXFd0M-QXHqiH9mGf5wi90NvbE") 
+bot_token = os.environ.get("TOKEN", "5721164040:AAFmqLE0xpL4_sDGvXZfO9cagK8YuEseG28") 
 api_hash = os.environ.get("HASH", "8def740d346f2cef8d3d0cb1c22232e8") 
 api_id = os.environ.get("ID", "7259893")
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
